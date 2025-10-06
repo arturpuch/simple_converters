@@ -1,4 +1,4 @@
-﻿#powershell -NoProfile -ExecutionPolicy Bypass -File .\convert.ps1
+﻿#powershell -NoProfile -ExecutionPolicy Bypass -File .\tiff-to-jpg.ps1
 # Convert all .tif and .tiff files to .jpg and save them in a subfolder "JPG"
 
 Add-Type -AssemblyName System.Drawing
